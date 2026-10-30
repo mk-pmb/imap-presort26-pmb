@@ -1,5 +1,5 @@
 { "name": "imap-presort26-pmb",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pre-sort email in your IMAP inbox.",
   "keywords": [],
 
@@ -22,7 +22,19 @@
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 
-  "dependencies": {},
+  "dependencies": {
+    "config-password-source-pmb": "^0.1.1",
+    "getown": "^1.0.2",
+    "imapflow": "^2.9.1",
+    "is-string": "^1.0.7",
+    "lodash.get": "^4.4.2",
+    "lodash.mapvalues": "^4.6.0",
+    "lodash.set": "^4.3.2",
+    "objpop": "^0.3.6",
+    "string-or-buffer-contains-all-in-order-pmb": "^0.1.0",
+    "typechecks-pmb": "^0.240627.3",
+    "vtry": "^1.1.1"
+  },
   "devDependencies": {
     "eslint-config-nodejs-pmb": "^0.3.14",
     "eslint-plugin-json-light-pmb": "^1.0.7",
